@@ -13,7 +13,7 @@ import { Component, OnInit } from '@angular/core';
 
 
 
-export class HeroesComponent {
+export class HeroesComponent implements OnInit {
     heroes = HEROES;
 
     // selectedHero: Hero;
